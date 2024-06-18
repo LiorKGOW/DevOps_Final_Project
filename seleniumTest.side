@@ -139,6 +139,13 @@
         ["xpath=//b", "xpath:position"]
       ],
       "value": ""
+    }, {
+      "id": "4f04dfd9-88a4-45ae-bc3e-32059033f6b6",
+      "comment": "",
+      "command": "echo",
+      "target": "",
+      "targets": [],
+      "value": "test finished"
     }]
   }],
   "suites": [{
