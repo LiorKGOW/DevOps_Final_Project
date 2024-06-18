@@ -1,0 +1,154 @@
+{
+  "id": "9e3188f1-38e0-4e03-8f8b-5ddeb6f8a766",
+  "version": "2.0",
+  "name": "DevOps_Final_Project",
+  "url": "http://localhost:8080",
+  "tests": [{
+    "id": "ce53bca3-1c6f-433c-936d-e9421e6c90a9",
+    "name": "test website",
+    "commands": [{
+      "id": "58b7bc88-06aa-4cf6-b919-fa095649e8f2",
+      "comment": "",
+      "command": "open",
+      "target": "/Daniel_Itamar_Lior_Maya_Amit/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cf9d219e-2321-4942-94e8-995d42eb8247",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1280x680",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "198dd9f3-48c2-4bbb-ab36-f6ea691ff902",
+      "comment": "",
+      "command": "click",
+      "target": "css=body",
+      "targets": [
+        ["css=body", "css:finder"],
+        ["xpath=//body", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8a851869-21f8-40f6-bae0-89a0c45b385b",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:8080/Daniel_Itamar_Lior_Maya_Amit/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d98cbb2a-e736-4dff-bb56-fafef117b3a8",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=h2",
+      "targets": [
+        ["css=h2", "css:finder"],
+        ["xpath=//h2", "xpath:position"],
+        ["xpath=//h2[contains(.,'User Info Request Form')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "315e79d0-10bd-4448-92d2-91c44c2cba84",
+      "comment": "",
+      "command": "click",
+      "target": "name=name",
+      "targets": [
+        ["name=name", "name"],
+        ["css=p:nth-child(1) > input", "css:finder"],
+        ["xpath=//input[@name='name']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a038a507-29cb-48b2-b8ec-3ec3eafdbed4",
+      "comment": "",
+      "command": "type",
+      "target": "name=name",
+      "targets": [
+        ["name=name", "name"],
+        ["css=p:nth-child(1) > input", "css:finder"],
+        ["xpath=//input[@name='name']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "amit"
+    }, {
+      "id": "acbbc3c6-5426-4124-94c8-8512b916d278",
+      "comment": "",
+      "command": "click",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["css=p:nth-child(2) > input", "css:finder"],
+        ["xpath=//input[@name='email']", "xpath:attributes"],
+        ["xpath=//p[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "445940a6-ef0e-4996-8825-e95cc3d9bc5a",
+      "comment": "",
+      "command": "type",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["css=p:nth-child(2) > input", "css:finder"],
+        ["xpath=//input[@name='email']", "xpath:attributes"],
+        ["xpath=//p[2]/input", "xpath:position"]
+      ],
+      "value": "amit@gmail.com"
+    }, {
+      "id": "1e1a3e6e-5529-41bb-b07b-dc539f2b1a52",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=p:nth-child(1)",
+      "targets": [
+        ["css=p:nth-child(1)", "css:finder"],
+        ["xpath=//p", "xpath:position"],
+        ["xpath=//p[contains(.,'Your name: ')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5d20a3af-2264-4011-b360-36f43241d229",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=p:nth-child(2)",
+      "targets": [
+        ["css=p:nth-child(2)", "css:finder"],
+        ["xpath=//p[2]", "xpath:position"],
+        ["xpath=//p[contains(.,'Your email: ')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a3ba9ccb-c02a-49c4-954b-d345435bb4f6",
+      "comment": "",
+      "command": "click",
+      "target": "css=p:nth-child(3) > input",
+      "targets": [
+        ["css=p:nth-child(3) > input", "css:finder"],
+        ["xpath=//input[@value='Process']", "xpath:attributes"],
+        ["xpath=//p[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3fa30aee-34de-49b7-a1a9-154a8add0d62",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=p:nth-child(3) > b",
+      "targets": [
+        ["css=p:nth-child(3) > b", "css:finder"],
+        ["xpath=//b", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "1e96dd9b-0d31-412c-abef-55bea3dec8c1",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["ce53bca3-1c6f-433c-936d-e9421e6c90a9"]
+  }],
+  "urls": ["http://localhost:8080/"],
+  "plugins": []
+}
