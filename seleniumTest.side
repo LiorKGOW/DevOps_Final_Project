@@ -1,0 +1,130 @@
+{
+  "id": "7cdab0ce-a5fc-4275-b101-f113bf3485d2",
+  "version": "2.0",
+  "name": "DevOps_Final_Project",
+  "url": "",
+  "tests": [{
+    "id": "0a2aa000-5b7b-49c1-bced-27d555fa69e9",
+    "name": "ourWebsiteTest",
+    "commands": [{
+      "id": "69365002-e225-400c-9766-add3b45a0ca2",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:8080/Daniel_Itamar_Lior_Maya_Amit/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9db508da-fdd2-46eb-b146-bd4f354db295",
+      "comment": "",
+      "command": "click",
+      "target": "name=name",
+      "targets": [
+        ["name=name", "name"],
+        ["css=p:nth-child(1) > input", "css:finder"],
+        ["xpath=//input[@name='name']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "64473356-ca3f-42e1-adb4-e26310b732ae",
+      "comment": "",
+      "command": "type",
+      "target": "name=name",
+      "targets": [
+        ["name=name", "name"],
+        ["css=p:nth-child(1) > input", "css:finder"],
+        ["xpath=//input[@name='name']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "amit"
+    }, {
+      "id": "649c035d-2731-49c3-a755-5340736cc8a2",
+      "comment": "",
+      "command": "click",
+      "target": "css=form",
+      "targets": [
+        ["css=form", "css:finder"],
+        ["xpath=//form[@action='']", "xpath:attributes"],
+        ["xpath=//form", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "79508f30-3005-4a2f-9600-0379c77c1a27",
+      "comment": "",
+      "command": "click",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["css=p:nth-child(2) > input", "css:finder"],
+        ["xpath=//input[@name='email']", "xpath:attributes"],
+        ["xpath=//p[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b010905c-c402-4c07-9b22-eb41d45d4935",
+      "comment": "",
+      "command": "type",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["css=p:nth-child(2) > input", "css:finder"],
+        ["xpath=//input[@name='email']", "xpath:attributes"],
+        ["xpath=//p[2]/input", "xpath:position"]
+      ],
+      "value": "amit@gmail.com"
+    }, {
+      "id": "7dfc2fd3-6052-4b7f-a66b-a1a17e6dfe6e",
+      "comment": "",
+      "command": "click",
+      "target": "css=p:nth-child(3) > input",
+      "targets": [
+        ["css=p:nth-child(3) > input", "css:finder"],
+        ["xpath=//input[@value='Process']", "xpath:attributes"],
+        ["xpath=//p[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b45add56-b251-44ad-9683-9476572eb8bb",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=p:nth-child(3) > b",
+      "targets": [
+        ["css=p:nth-child(3) > b", "css:finder"],
+        ["xpath=//b", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8eaefa0e-7b73-4c86-b4be-12620dcd6f28",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=p:nth-child(5)",
+      "targets": [
+        ["css=p:nth-child(5)", "css:finder"],
+        ["xpath=//p[2]", "xpath:position"],
+        ["xpath=//p[contains(.,'Name: amit')]", "xpath:innerText"]
+      ],
+      "value": "Name: amit"
+    }, {
+      "id": "9e2ee408-4d22-428d-9919-7c466221add8",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=p:nth-child(7)",
+      "targets": [
+        ["css=p:nth-child(7)", "css:finder"],
+        ["xpath=//p[3]", "xpath:position"],
+        ["xpath=//p[contains(.,'Email: amit@gmail.com')]", "xpath:innerText"]
+      ],
+      "value": "Email: amit@gmail.com"
+    }]
+  }],
+  "suites": [{
+    "id": "b8cceccd-55af-48d1-8444-9333280803f8",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["0a2aa000-5b7b-49c1-bced-27d555fa69e9"]
+  }],
+  "urls": [],
+  "plugins": []
+}
