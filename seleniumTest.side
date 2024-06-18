@@ -146,13 +146,6 @@
       "target": "",
       "targets": [],
       "value": "test finished"
-    }, {
-      "id": "2c24b890-b6a5-492f-8c85-d09bf71aa5e5",
-      "comment": "",
-      "command": "deleteAllVisibleCookies",
-      "target": "",
-      "targets": [],
-      "value": ""
     }]
   }],
   "suites": [{
