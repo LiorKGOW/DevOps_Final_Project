@@ -2,7 +2,7 @@
   "id": "9e3188f1-38e0-4e03-8f8b-5ddeb6f8a766",
   "version": "2.0",
   "name": "DevOps_Final_Project",
-  "url": "http://localhost:8080",
+  "url": "https://4c00-212-199-146-38.ngrok-free.app/Daniel_Itamar_Lior_Maya_Amit/",
   "tests": [{
     "id": "ce53bca3-1c6f-433c-936d-e9421e6c90a9",
     "name": "test website",
@@ -10,7 +10,7 @@
       "id": "58b7bc88-06aa-4cf6-b919-fa095649e8f2",
       "comment": "",
       "command": "open",
-      "target": "/Daniel_Itamar_Lior_Maya_Amit/",
+      "target": "https://4c00-212-199-146-38.ngrok-free.app/Daniel_Itamar_Lior_Maya_Amit/",
       "targets": [],
       "value": ""
     }, {
