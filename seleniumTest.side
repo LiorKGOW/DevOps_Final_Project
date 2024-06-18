@@ -34,7 +34,7 @@
       "id": "8a851869-21f8-40f6-bae0-89a0c45b385b",
       "comment": "",
       "command": "open",
-      "target": "http://localhost:8080/Daniel_Itamar_Lior_Maya_Amit/",
+      "target": "https://4c00-212-199-146-38.ngrok-free.app/Daniel_Itamar_Lior_Maya_Amit/",
       "targets": [],
       "value": ""
     }, {
@@ -156,6 +156,6 @@
     "timeout": 300,
     "tests": ["ce53bca3-1c6f-433c-936d-e9421e6c90a9"]
   }],
-  "urls": ["http://localhost:8080/"],
+  "urls": ["https://4c00-212-199-146-38.ngrok-free.app/Daniel_Itamar_Lior_Maya_Amit/"],
   "plugins": []
 }
