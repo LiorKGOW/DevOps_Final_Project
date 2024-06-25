@@ -10,7 +10,7 @@
     <H2>User Info Request Form</H2>     
     <FORM METHOD="GET" ACTION="">     
     <P>     
-    Your name: <input type="text" name="name" size=26>     
+    Your first name: <input type="text" name="name" size=26>     
     <P>     
     Your email: <input type="text" name=
     "email" size=26>     
